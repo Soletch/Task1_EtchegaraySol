@@ -29,12 +29,18 @@
 
 .carousel-inner{
     width: 100%;
-    height: 15rem;
+    height: 20rem;
     object-fit: cover;
     object-position: top;
 }
 
+.carousel slide{
+    position: relative;
+    z-index: 1;
+}
+
 .socialnet{
-    width: 3rem;
+    width: 2rem;
     object-fit: cover;
+    
 }

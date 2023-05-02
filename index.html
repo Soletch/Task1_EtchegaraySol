@@ -43,7 +43,7 @@
     <main class="flex-grow-1">
         <section class="carousel">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <h1 class="position-absolute top-50 start-50 translate-middle ">Home</h1>
+                <h1 class=" z-3 position-absolute top-50 start-50 translate-middle text-light">Home</h1>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="./assets/images/Books.jpg" class="d-block w-100" alt="books">
@@ -84,8 +84,8 @@
                 <label class="btn mt-2 col-2" for="btnradio5">Categoría 5</label>
               </div>
 
-              <div class="cards d-flex flex-column flex-wrap mt-5 ms-5">
-                  <div class="card  col-10 col-md-5 col-lg-4 col-xl-2" style="width: 18rem;">
+              <div class="cards d-flex flex-wrap align-items-baseline gap-3 mt-5 ms-5">
+                  <div class="card  col-10 col-md-5 col-lg-4 col-xl-2" style="width: 18rem; margin-top: 0;">
                     <img src="./assets/images/Concierto de musica1.jpg" class="card-img-top" alt="concert">
                     <div class="card-body">
                       <h5 class="card-title">Metallica in concert</h5>
@@ -94,7 +94,7 @@
                       <a href="./assets/pages/details.html" class="btn btn-danger">Details</a>
                     </div>
                   </div>
-                  <div class="card mt-5 col-10 col-md-5 col-lg-4 col-xl-2" style="width: 18rem;">
+                  <div class="card mt-5 col-10 col-md-5 col-lg-4 col-xl-2" style="width: 18rem; margin-top: 0;">
                     <img src="./assets/images/Feria de comidas7.jpg" class="card-img-top" alt="food festival">
                     <div class="card-body">
                       <h5 class="card-title">Festival of the collectivities</h5>
@@ -103,7 +103,7 @@
                       <a href="./assets/pages/details.html" class="btn btn-danger">Details</a>
                     </div>
                   </div>
-                  <div class="card mt-5 col-10 col-md-5 col-lg-4 col-xl-2" style="width: 18rem;">
+                  <div class="card mt-5 col-10 col-md-5 col-lg-4 col-xl-2" style="width: 18rem; margin-top: 0;">
                     <img src="./assets/images/Fiesta de disfraces1.jpg" class="card-img-top" alt="Halloween">
                     <div class="card-body">
                       <h5 class="card-title">Halloween Night</h5>
@@ -112,7 +112,7 @@
                       <a href="./assets/pages/details.html" class="btn btn-danger">Details</a>
                     </div>
                   </div>
-                  <div class="card mt-5 col-10 col-md-5 col-lg-4 col-xl-2" style="width: 18rem;">
+                  <div class="card mt-5 col-10 col-md-5 col-lg-4 col-xl-2" style="width: 18rem; margin-top: 0;">
                     <img src="./assets/images/Salida al museo5.jpg" class="card-img-top" alt="museum">
                     <div class="card-body">
                       <h5 class="card-title">Jurassic Park</h5>
@@ -129,11 +129,13 @@
 
     </main>
 
-    <footer class="vh10 bg-secondary-subtle d-flex justify-content-space-between flex-grow-0">
+    <footer class="vh10 bg-secondary-subtle d-flex justify-content-between  align-items-center">
 
-        <a href=""><img src="./assets/images/facebook.png" alt="Facebook" class="socialnet"></a>
-        <a href=""><img src="./assets/images/instagram.png" alt="Instagram" class="socialnet"></a>
-        <a href=""><img src="./assets/images/whatsapp.png" alt="WhatsApp" class="socialnet"></a>
+        <div class="d-flex justify-content-start gap-3">
+          <a href=""><img src="./assets/images/facebook.png" alt="Facebook" class="socialnet"></a>
+          <a href=""><img src="./assets/images/instagram.png" alt="Instagram" class="socialnet"></a>
+          <a href=""><img src="./assets/images/whatsapp.png" alt="WhatsApp" class="socialnet"></a>
+        </div>
 
         <p>COHORT 47</p>
 
